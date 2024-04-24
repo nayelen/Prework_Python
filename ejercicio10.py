@@ -4,19 +4,12 @@
 
 dia = int(input('Elige un número del 1 al 7 para ver el día de la Semana: '))
 
-if dia == 1:
-  print('Lunes')
-elif dia == 2:
-  print('Martes')
-elif dia == 3:
-  print('Miércoles')
-elif dia == 4:
-  print('Jueves')
-elif dia == 5:
-  print('Viernes')
-elif dia == 6:
-  print('Sábado')
-elif dia == 7:
-  print('Domingo')
-else:
-  print('No hay más días en la semana, elige un número del 1 al 7 campeón!')
+def det_dia(dia):
+  dias = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
+  if dia >= 1 and dia <=7:
+    return dias[dia-1]
+  else:
+    return 'No hay más días en la semana, elige un número del 1 al 7 campeón!'
+
+nombre_dia = det_dia(dia)
+print(nombre_dia)
