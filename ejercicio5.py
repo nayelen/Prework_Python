@@ -3,7 +3,7 @@
 
 suma = 0
 inicio = 1
-fin = 100
+fin = 101
 
 while inicio < fin:
   if inicio % 2 == 0:
