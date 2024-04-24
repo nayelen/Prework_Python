@@ -2,7 +2,10 @@
 # Escribe un programa que convierta una distancia en millas a kilómetros. Sabiendo
 # que 1 milla equivale a 1.60934 kilómetros.
 
-kilometros = float(input('Introduce los kilómenros a convertir en millas: '))
+def millas_a_km(millas):
+  kilometros = millas * 1.60934
+  return kilometros
 
-millas = kilometros *1.60934
-print(kilometros, 'km equivale a', millas,'millas')
+millas = float(input('Introduce la distancia en millas: '))
+kilometros = millas_a_km(millas)
+print(f"La distancia en kilómetros es {kilometros:.2f}")
