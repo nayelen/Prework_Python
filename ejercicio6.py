@@ -7,4 +7,8 @@ palabra = input('Ingrese la palabra: ')
 def es_palindromo(palabra):
   palabra = palabra.lower()
   return palabra == palabra[::-1]
-print(es_palindromo(palabra))
+
+if es_palindromo(palabra):
+  print("Es un palindromo!")
+else:
+  print("No es un palindromo! Sorry!")
