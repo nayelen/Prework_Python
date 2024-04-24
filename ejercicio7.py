@@ -8,10 +8,12 @@ opcion = input('Selecciona + , - , * , / :')
 
 if opcion == '+':
   total = num1 + num2
-if opcion == '-':
+elif opcion == '-':
   total = num1 - num2
-if opcion == '*':
+elif opcion == '*':
   total = num1 * num2
-if opcion == '/':
+elif opcion == '/':
   total = num1 / num2
+else:
+  total = 'Operación no valida'
 print(total)
