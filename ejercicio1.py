@@ -4,5 +4,5 @@
 # °F = (9/5)°C + 32
 
 grados = float(input('Escribe los grados Celsius a convertir:'))
-F = 9 / 5 * grados + 32 
-print(grados, 'grados Celsius equivale a' ,F, 'grados Farenheit')
+f_grados = 9 / 5 * grados + 32 
+print(grados, 'grados Celsius equivale a' ,f_grados, 'grados Farenheit')

@@ -4,6 +4,6 @@
 
 precio = float(input('Introduce el precio del producto: '))
 
-precioFinal = precio * 0.80
+precio_final = precio * 0.80
 
-print('El precio final con el descuento del 20% es: ',precioFinal, '€')
+print('El precio final con el descuento del 20% es: ',precio_final, '€')

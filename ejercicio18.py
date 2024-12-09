@@ -4,8 +4,5 @@
 frase = input('Escribe una frase para contar las palabras: ')
 
 palabras = frase.split()
-i = 0
-for palabra in palabras:
-  i += 1
-  
-print('Numero de palabras:', i)
+cantidad_palabras = len(palabras)
+print(f"La cantidad de palabras es {cantidad_palabras}")
